@@ -4,5 +4,5 @@ int faktorial(int a){
 	return a*faktorial(a-1);
 }
 main(){
-	printf("%d", faktorial(10));
+	printf("%d", faktorial(6));
 }
