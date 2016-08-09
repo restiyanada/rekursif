@@ -2,7 +2,7 @@
  
 int deretbilanganGenap(int x){ 
     if(x<=20) printf("%d ",x); 
-    deretbilanganGenap(i+=2); 
+    deretbilanganGenap(x+=2); 
 } 
  
 main(){ 
