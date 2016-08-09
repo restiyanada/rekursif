@@ -1,13 +1,13 @@
 #include <stdio.h> 
  
-void deret(int a){ 
+void deret(int x){ 
     if(a<10){ 
-        printf("%d ",a); 
-        deret(++a); 
+        printf("%d ",x); 
+        deret(++x); 
     } 
 } 
  
 main(){ 
-    int a=0; 
-    deret(a); 
+    int x=0; 
+    deret(x); 
 }
