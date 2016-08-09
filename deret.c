@@ -1,7 +1,7 @@
 #include <stdio.h> 
  
 void deret(int x){ 
-    if(a<10){ 
+    if(x<10){ 
         printf("%d ",x); 
         deret(++x); 
     } 
