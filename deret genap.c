@@ -1,10 +1,10 @@
 #include <stdio.h> 
  
-int deretGenap(int i){ 
-    if(i<=20) printf("%d ",i); 
-    deretGenap(i+=2); 
+int deretbilanganGenap(int x){ 
+    if(x<=20) printf("%d ",x); 
+    deretbilanganGenap(i+=2); 
 } 
  
 main(){ 
-   deretGenap(0); 
+   deretbilanganGenap(0); 
 }
