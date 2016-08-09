@@ -3,12 +3,12 @@
 #include <math.h>
 
 int fibo(int n){
-  if((n==1) || (n==2)){ //basis
+  if((n==1) || (n==2)){ 
      return 1;
-  }else if(n % 2 == 0){ //rekurens
-      return fibo(n-2) + 2; //Kondisi Genap
+  }else if(n % 2 == 0){
+      return fibo(n-2) + 2;
    }else {
-      return fibo(n-2) + 1; //Kondisi Ganjil
+      return fibo(n-2) + 1;
     }
 }
 
