@@ -1,5 +1,5 @@
-#include 
-#include 
+#include <stdio.h>
+#include <conio.h>
 
 int n;
 
